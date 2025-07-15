@@ -1,23 +1,39 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
   padding: 20px;
-  background: #f7f7f7;
 }
 
-#malla {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 40px;
+}
+
+select {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
 .materia {
   background-color: #3498db;
   color: white;
   padding: 15px;
+  border-radius: 10px;
   text-align: center;
-  border-radius: 8px;
+  transition: background-color 0.3s ease;
   cursor: pointer;
-  transition: 0.3s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .materia:hover {
